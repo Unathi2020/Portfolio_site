@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+<title>TechMoney.co.za by Unathi Makwabe</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none} 
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="ContactMe.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT ME</a>
+    <a href="blog.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BLOG</a>  
+    </div>
+
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BLOG</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <img src="images/selfie3.png" alt="" height="200" width="200">
+    <div class ="Shimmer">
+      <h1 class="shimmer">UNATHI MAKWABE</h1>
+    </div>
+
+      <style>
+        .Shimmer {
+        background:  white;
+      }
+
+    .shimmer{
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 3em;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    display: inline;
+  }
+
+  .shimmer {
+    color: rgba(255,255,255,0.1);
+    background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 125px 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: #222;
+  }
+  @-moz-keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+  @-webkit-keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+  @-o-keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+  @keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+  </style>
+
+    <p class="w3-opacity"><i>Cetified Web Developer</i></p>
+    <p class="w3-right">
+    <div class="w3-row w3-padding-32">
+      
+ <h2 class="skills">SKILLS</h2>
+      <div class="w3-third">
+          <p>Client Side Development</p>
+          <div class= "image">
+            <img class="image__img" img src="images/frontEnd.jpg" class="w3-round w3-margin-bottom" alt="" style="width:60%">
+              <div class ="image__overlay">         
+                  <p class="image__descr">Competent with HTML 5, CSS 3, JAVASCRIPT, Bootstrap and PHP. </p >
+            </div>  
+          </div>
+      </div>
+      
+      <div class="w3-third">
+        <p>Server Side Development</p>
+        <div class="image">
+          <img class="image__img" src="images/backEnd.png" class="w3-round w3-margin-bottom" alt="" style="width:60%">
+          <div class= image__overlay>
+          <p class ="image__descr">Familiar with C#, .NET MVC architecture, Entity framework, version control and XAMPP server administration.</p>
+        </div>      
+      </div>
+      </div>
+
+      <div class="w3-third">
+        <p>SQL Database Development</p> 
+        <div class="image"> 
+        <img class="image__img" src= "images/DataBase.png" class="w3-round w3-margin-bottom" alt="" style="width:60%">
+          <div class="image__overlay">
+            <p class ="image__descr">Skilled with SQL language, database design and development with Microsoft SQL server and MySQL. </p>
+          </div>
+        </div>
+      </div>
+     <style>
+
+    .w3-third{
+        text-align:center;
+    }
+    
+      .image{
+      position:relative;
+      width:150%;     
+    }
+    .image__img{
+      display:block;  
+      width:150%; 
+    }
+
+    .image__overlay{
+      position:absolute; 
+      top:0; 
+      left:0; 
+      width:60%; 
+      height:100%; 
+      border-radius:55%; 
+
+      background:rgba(0,0,0,0.6); 
+      color:#ffffff; 
+      font-family:Quicksand, sans-serif; 
+      display:flex; 
+      flex-direction:column; 
+      align-items:center; 
+      justify-content:center; 
+      opacity:0;
+      transition:opacity 0.25s;  
+
+    }
+
+    .image__overlay--blur{
+    backdrop-filter:blur(5px); 
+
+    
+    }
+
+
+    .image__overlay > * {
+      transform:translateY(20px); 
+      transition:transform 0.25s; 
+
+    }
+    .image__overlay:hover{
+      opacity:1; 
+
+    }
+
+    .image__overlay:hover > *{
+      transform:translateY(20px); 
+
+
+    }
+
+    .image__title{
+      font-size:2em; 
+      font-weight:bold; 
+        
+    }
+    .image__descr{
+      font-size:1.25; 
+      margin-top:0.25em
+    }
+     </style>
+     </div>
+                 
+
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">PROJECTS </h2>
+        <div class="w3-row-padding w3-padding-32 margin-bottom" style="margin:0-16px">       
+       
+          <div class="w3-third w3-margin-bottom  w3-margin-bottom">
+            <div class="w3-container w3-white">
+            <p><b>E-Commerce Store</b></p>
+           <img src="images/ecom.jpg" style="width:25%">
+            <p>An online suplly and delivery business that specialises in medical supplies for the home and office. </p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Click to View</button>
+          </div>
+        </div>
+
+        <div class="w3-third w3-margin-bottom  w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>Corporate Email Signatures</b></p>
+            <img src="images/emailSig.jpg" style="width:25%">
+            <p>Converting Corporate Email Signature designs into frontend code with HTML, CSS and Bootstrap.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Click to View</button>
+          </div>
+        </div>
+
+        <div class="w3-third w3-margin-bottom  w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>Recruitment Web App </b></p>
+            <img src="images/leadGen.jpg" style="width:25% ">
+            <p>A web app dedicated to matching candidates with their preferred job offers.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Click to View</button>
+          </div> 
+        </div>
+
+
+    
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+            <h2 class="w3-wide w3-center">CERTIFICATES </h2>
+        <div class="w3- w3-margin-bottom">
+          <div class="w3-container w3-white">
+
+
+            <style>
+              .wrapper{
+                text-align: center; 
+              }
+            </style>
+
+<style>
+  .zoom {
+    transition: transform .4s; /* Animation */
+    margin: 0 auto;
+  }
+  .zoom:hover {
+    transform: scale(2.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  </style>
+            </script>
+            <div class ="wrapper">
+              <div class="zoom">
+                <img src="images/483 badge.png" style="width:15%">
+                <img src="images/486 badge.png" style="width:15%">
+                <img src="images/487 badge.png" style="width:15%">
+                <img src="images/mcsa badge.png" style="width:15%">
+                <img src="images/mcsd badge.png" style="width:15%">
+                  </div>
+                </div>
+                    
+              </div>
+              <div class="resume">Click <a href ="files/Unathi MakwabeCV_DevJobs.pdf">here</a> to view my Resume in PDF format. 
+
+              </div>
+              <style>
+                .resume{
+                  color:white; 
+                  text-align:center; 
+                  margin-top:1%;
+                  padding-top:30px;  
+                }
+
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<!-- The Contact Section -->
+<!-- End Page Content -->
+
+</div>
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity">https://www.facebook.com/home.php</i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium"> <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"></a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+    </body>
+  </html>
+
